@@ -1,6 +1,6 @@
 {
-    "ownername": "Otaku", //This is optional only, write any name you want and it will appear on the commands it contains footer
-    "ownercmdfailtext": "what you doing bro❌", //This shows a message to someone trying to use orders that have higher powers than him / you can ingor this
+    "ownername": "Otaku", //This is optional only write any name you want and it will appear on the commands it contains footer
+    "ownercmdfailtext": "what you doing bro❌", //This shows a message to someone trying to use orders that have higher powers than him you can ingor this
     "bugchannelid": "683428776843280474", //Ingore this
     "suggestionchannelid": "683428539370176571" // Ingore this too
 }

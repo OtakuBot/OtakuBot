@@ -1,0 +1,13 @@
+node_modules
+costumisation.json
+score.sqlite
+package-lock.json
+data
+better-sqlite3
+enmap.sqlite
+crowdin-copy.yml
+test.js
+db.sqlite
+newlb.js
+website.js
+log

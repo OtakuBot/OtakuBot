@@ -28,7 +28,7 @@ fs.readdir('./commands/', (err, files) => {
 
 client.on('ready', () => {
   setInterval(() => {
-    client.user.setPresence({ game: { name: `Under Developing`, type: 1, url: "https://www.twitch.tv/nightcore_at" }})
+    client.user.setPresence({ game: { name: `Nothing`, type: 1, url: "https://www.twitch.tv/" }})
   }, 60000);
 });
 

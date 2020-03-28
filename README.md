@@ -45,8 +45,8 @@ There are a total of 37 commands and i will add help commands as soon as possibl
 | `woosh`           | r/woosh                                              | woosh (w or w/o @mention)      |
 
 - - - - - - - -
-The bot was developed by anouch mino#3678 , In programming language Json 
-Using , Visual Code Source and NotePadd++
+The bot was developed by `anouch mino#3678` , In programming language Json ,
+Using Visual Code Source and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - -- - 
 > join us at 

@@ -5,7 +5,7 @@ Here is an explanation regarding some of the files
 
 # customisation
 This field is used to add your own signature to the bot, and it will appear below most commands, If you want to add something before signing up for orders, please contact me to let you know how this is done
-- - - 
+- - - -
 {
     "ownername": "Otaku", //Choose any name you want and write it here, and this will enable you to see it for every matter that includes the footer
     "ownercmdfailtext": "what you doing bro❌", //A message sent to a person who uses orders higher than him and that may be the owner's perms 

@@ -48,5 +48,7 @@ The bot was developed by anouch mino#3678 , In programming language Json
 Using , Visual Code Source and NotePadd++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - -- - 
-join us at 
+> join us at 
 [![Discord](https://discordapp.com/api/guilds/352896116812939264/widget.png)](https://discord.gg/chnUSyw)
+----
+[![Build Status](https://travis-ci.com/serin3/OtakuBot.svg?branch=master)](https://travis-ci.com/serin3/OtakuBot)

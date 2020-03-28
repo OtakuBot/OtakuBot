@@ -6,6 +6,7 @@ There are a total of 37 commands and i will add help commands as soon as possibl
 
 List Of Command :
 ------
+
 anime,
 animemes,
 avatar,
@@ -43,6 +44,7 @@ vote,
 waifu,
 wallpaper,
 woosh,
+
 - - - - - - - -
 The bot was developed by anouch mino#3678 , In programming language Json 
 Using , Visual Code Source and NotePadd++

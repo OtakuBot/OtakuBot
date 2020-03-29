@@ -14,6 +14,7 @@ There are a total of 37 commands and i will add help commands as soon as possibl
 | `feed`            | Feeds someone OwO                                    | feed <@user>                   |
 | `fight`           | Fight someone Owo                                    | fight <@user>                  |
 | `hammer`          | Gives you a hammer to throw at a pleb                | hammer <@user>                 |
+| `help`            | Show you Full command (not all command working yet)  | help [commands]                |
 | `hug`             | Hugs someone Owo                                     | hug <@user>                    |
 | `kiss`            | kiss someone Owo                                     | kiss <@user>                   |
 | `kitsune`         | Kitsunes Owo                                         | kitsune                        |

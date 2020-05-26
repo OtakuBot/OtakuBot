@@ -1,0 +1,110 @@
+//By NightcoreAT#3678
+
+Hello, In this file, I will show you all the requirements for the bot to work well
+=====
+first thing
+---
+Make sure you own and download the latest version of nodejs (optionel 13.7.2 That the bot works well on)
+---
+then
+---
+Create a new folder with the name node_modules
+after it'd done,
+After completing this, download all modules below from npm or git , put it on node_modules
+---
+discord.js latest ver (optionel 11.5.2 that which i working on)
+chalk latest ver
+ms latest ver
+clone latest ver
+casless latest ver
+color-convert latest ver
+cookiejar latest ver
+moment latest ver
+form-data latest ver
+google latest ver (With sure you are downloaded got)
+lawystream latest ver
+long latest ver
+methods latest ver
+mime latest ver
+mime-db latest ver
+mime-types latest ver
+minimatch latest ver
+node-fetch latest ver
+node-gyp latest ver
+node-superfetch latest ver
+normalize-package-data latest ver
+normalize-path latest ver
+lodash.set latest ver
+lodash.get latest ver
+lodash-json-file latest ver
+lodash latest ver
+lodash.clone latest ver
+lodash.unset latest ver
+log-ok
+pify latest ver
+request latest ver
+require-main-filename latest ver\
+prism-media latest ver
+path-exists latest ver
+path-is-absolute latest ver
+path-parse latest ver
+path-type latest ver
+snekfetch
+ws latest ver
+with latest ver
+to-buffer latest ver
+to-fast-propertioes latest ver
+to-file latest ver
+mongodb + mongoos (Not required to release the current bot)
+discord-commando (Not required to release the current bot)
+utf8 (Not required to release the current bot)
+quick.db latest ver
+quick-db latest ver
+random-puppy latest ver
+read-pkg latest ver
+punycode latest ver
+http-signature latest ver
+har-schema latest ver
+har-validator latest ver
+has-flag latest ver
+has-glob latest ver
+has-unicode latest ver
+integer latest ver
+invert-kv latest ver
+is-glob latest ver
+is-redirect latest ver
+isstream latest ver
+is-stream latest ver
+ini latest ver
+isexe latest ver
+jsonfile latest ver
+json-schema latest ver
+json-schema-traverse latest ver
+json-stringify-safe latest ver
+lazystream latest ver
+jsbn latest ver
+json5 latest ver
+jsonfile latest ver
+is-windows latest ver
+is-utf8 latest ver
+is-unc-path latest ver
+fast-deep-equal latest ver
+fast-json-stable-stringify latest ver
+file-contents latest ver
+file-stat latest ver
+find-up latest ver
+forever-agent latest ver
+fs-constants latest ver
+f-exists-synclatest ver
+fs-extra latest ver
+get-caller-file latest ver
+global-modules latest ver
+get-stream latest ver
+fs.realpath latest ver
+hosted-git-info
+----------------------------------
+These are all requirements, if you forget something, don't forget to let me know via Discord
+----------------------------------
+The other explanation will be included in the commands
+----------------------------------
+//By NightcoreAT#3678

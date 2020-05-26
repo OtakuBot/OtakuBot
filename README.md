@@ -52,6 +52,11 @@ any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -
+Want to run the bot on your device?
+Follow requirements file
+- - - - - - - -
+Help command will be released as soon as possible
+- - - - - - - -
 > join us at 
 
 [![Discord](https://discordapp.com/api/guilds/352896116812939264/widget.png)](https://discord.gg/chnUSyw)

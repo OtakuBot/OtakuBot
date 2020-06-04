@@ -2,7 +2,7 @@
 const request = require('node-superfetch'); //npm i node-superfetch 
 const Discord = require('discord.js'); //npm i discord.js
 //no footer so we are not required to use customisation
-
+//Please note that the search does not support multiple languages
 exports.run = async (client, message, args, prefix) => { //From here our command starts
     //name: 'kitsu-anime',
     //aliases: ['kanime', 'anime', 'kitsu-a'],

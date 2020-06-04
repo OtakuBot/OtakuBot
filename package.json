@@ -1,12 +1,12 @@
 {
-  "name": "cryptonix-x-opensource",
-  "version": "1.0.0",
-  "description": "Open Source version of Cryptonix X",
+  "name": "OtakuBot Open Source",
+  "version": "1.3.1",
+  "description": "Open Source version of OtakuBot",
   "main": "index.js",
   "scripts": {
     "test": "*help"
   },
-  "author": "",
+  "author": "NightcoreAT#3678",
   "dependencies": {
     "administrator": "0.0.1",
     "better-sqlite3": "5.4.0",

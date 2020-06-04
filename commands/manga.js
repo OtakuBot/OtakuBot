@@ -46,7 +46,7 @@ exports.conf = {
   
   exports.help = {
     name: "manga", //your command name
-    description: "Provides info about a particular manga", //your command description
+    description: "Provides info about a particular manga; Please note that the search does not support multiple languages", //your command description
     usage: "manga [manga]" //how did it work
   };
 //By NightcoreAT#3678

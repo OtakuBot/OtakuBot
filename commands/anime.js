@@ -45,7 +45,7 @@ exports.conf = {
   
   exports.help = {
     name: "anime", //your command name
-    description: "Provides info about an anime", 
+    description: "Provides info about an anime ; Please note that the search does not support multiple languages", 
     usage: "anime [anime name]" //how did that command is working
   };
 //By NightcoreAT3678

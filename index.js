@@ -26,12 +26,14 @@ fs.readdir('./commands/', (err, files) => {
   });
 });
 
+//discordjs when they are upgarde to ver 12.2.0 , some feauture is cannot working now !
 client.on('ready', () => {
   setInterval(() => {
-    client.user.setPresence({ game: { name: `Nothing`, type: 1, url: "https://www.twitch.tv/" }})
+    client.user.setPresence({ activity: { name: `Nothing`, type: 1, url: "https://www.twitch.tv/" }})
   }, 60000);
 });
 
+//discordjs when they are upgarde to ver 12.2.0 , some feauture is cannot working now !
 client.on("guildCreate", guild => {
   let channelID;
   let channels = guild.channels;
@@ -43,10 +45,10 @@ client.on("guildCreate", guild => {
           break channelLoop;
       }
   }
-
-  let channel = client.channels.get(guild.systemChannelID || channelID);
+//client.channel.get is changed to client.channel.cache.get , that because an old one is stopped working at last ver 11.5.0 of discordjs liberary
+  let channel = client.channels.cache.get(guild.systemChannelID || channelID);
   channel.send(`Thanks for inviting me into this server! Please do /info and /help for the informations you WILL need in order for the bot to work properly. Do /suggest or /bug if there's any suggestions or bug you found. THANKS`);
-  channel.send("Join me in the Developer's server https://discord.gg/2NQbbPN");
+  channel.send("Join me in the Developer's server [Optionel]");
 
   let blacklist = JSON.parse(fs.readFileSync("./blacklist.json", "utf8"));
     client.guilds.forEach((guild) => {
@@ -57,7 +59,7 @@ client.on("guildCreate", guild => {
       }
     })
 });
-//command reload
+//command reload that the bot needed to work and respond of
 client.reload = command => {
   return new Promise((resolve, reject) => {
     try {
@@ -81,23 +83,17 @@ client.reload = command => {
 client.elevation = message => {
   if (message.channel.type === 'dm') return;
   let permlvl = 0;
-  let mod_role = message.guild.roles.find('name', settings.modrolename);
+  let mod_role = message.guild.roles.cache.find('name', settings.modrolename);
   if (mod_role && message.member.roles.has(mod_role.id)) permlvl = 1;
-  let admin_role = message.guild.roles.find('name', settings.adminrolename);
+  let admin_role = message.guild.roles.cache.find('name', settings.adminrolename);
   if (admin_role && message.member.roles.has(admin_role.id)) permlvl = 2;
-  let manager_role = message.guild.roles.find('name', settings.managerrolename);
+  let manager_role = message.guild.roles.cache.find('name', settings.managerrolename);
   if (manager_role && message.member.roles.has(manager_role.id)) permlvl = 3;
-  let overlord_role = message.guild.roles.find('name', settings.overlordrolename)
+  let overlord_role = message.guild.roles.cache.find('name', settings.overlordrolename)
   if (overlord_role && message.member.roles.has(overlord_role.id)) permlvl = 4;
   if (message.author.id === settings.ownerid) permlvl = 5;
   return permlvl;
 };
 
-//ping log 
-//var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
-//client.on('debug', e => {
-//  console.log(e.replace(regToken, 'that was redacted'));
-//});
-
-
+//dont put your token here 'places for called from file that called settings.json and the bot well auto get token
 client.login(settings.token);

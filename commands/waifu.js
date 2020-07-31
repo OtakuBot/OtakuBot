@@ -6,7 +6,7 @@ exports.run = async (client, message, args, tools) => {
     const { body } = await superagent
     .get("https://nekos.life/api/v2/img/waifu"); // where the bot is well searching for
     
-    const embed = new Discord.RichEmbed()
+    const embed = new Discord.MessageEmbed()
     .setColor("#ff9900")
     .setImage(body.url) // to show random waifu
     .setFooter(`©${customisation.ownername}`); //it's optionel from customisation.json , you can leave it empty

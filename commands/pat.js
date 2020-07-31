@@ -29,4 +29,4 @@ exports.conf = {
     usage: 'pat', // how the ywork
     example: 'pat <@otaku#--->' //here a some example about how they work
   };
-#By NightcoreAT#3678
+//By NightcoreAT#3678

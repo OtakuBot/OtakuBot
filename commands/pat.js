@@ -26,7 +26,7 @@ exports.conf = {
   exports.help = { //lets load commands
     name: 'pat', //commands name
     description: 'Pats anyone you went', //commands description
-    usage: 'pat', // how the ywork
+    usage: 'pat', // how they work
     example: 'pat <@otaku#--->' //here a some example about how they work
   };
 //By NightcoreAT#3678

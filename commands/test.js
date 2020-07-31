@@ -27,6 +27,7 @@ exports.conf = { // let's conf that command
   exports.help = { //Let's attach the command to the bot command list
     name: 'test-commands',
     description: 'your command description put them here as short.',
-    usage: 'test-commands'
+    usage: 'test-commands',
+    example: 'test <@mention> | <w @mention> | [location] | <#channelID> | <......>' //how your commands is work
   };
   //Made By NightcoreAT#3678

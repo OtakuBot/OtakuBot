@@ -18,7 +18,7 @@ There are a total of 37 commands and i will update help commands as soon as poss
 | `hug`             | Hugs someone Owo                                     | hug <@user>                    |
 | `kiss`            | kiss someone Owo                                     | kiss <@user>                   |
 | `kitsune`         | Kitsunes Owo                                         | kitsune                        |
-| `loli`            | Sends a random Neko-Loli-Chan                        | loli                           |
+| `loli`            | removed                                              | removed                        |
 | `manga`           | Provides info about a particular manga               | manga [manga]                  |
 | `moe`             | Sends a random awwnime image                         | moe                            |
 | `neko`            | Send a random neko-chan                              | neko                           |
@@ -50,6 +50,8 @@ There are a total of 37 commands and i will update help commands as soon as poss
 The bot was developed by `NightcoreAT#3678` , In programming language Json ,
 Using Visual Studio Code and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
+- - - - - - - -
+> Bot is updated her package to DiscordJS 12.2.0 | Bot Ver currently 2.3.0
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -

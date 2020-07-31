@@ -3,7 +3,7 @@ const Discord = require('discord.js'); //npm i discord.js
 const customisation = require('../customisation.json'); //it's optional to set your personal footer on the bot
 exports.run = (client, msg, args) => { //from here we started that tested command without using richembed , as you know
   msg.delete(); // If you want to have the message deleted automatically within minutes, you can specify the duration as desired
-  const embed = new Discord.RichEmbed() //Now let's create a  new richembed ; You can also create two richembed and I will explain it in another command  as soon
+  const embed = new Discord.MessageEmbed() //Now let's create a  new richembed ; You can also create two richembed and I will explain it in another command  as soon
   .setColor(0xFFFF00) //that is optional ! You can choose the color either by name or by hexcolor : When using the HEX code do not add # because it's unaccpepted
   .addTitle('') //Choose a title for the command, knowing that it will be large and then not used as an description and fields
   .addField('' or ``) // In this field type what you want as you can create multiple fields like

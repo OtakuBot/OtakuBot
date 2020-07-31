@@ -6,8 +6,8 @@ exports.run = async (client, message, args, tools) => {
     const { body } = await superagent
     .get("https://nekos.life/api/v2/img/wallpaper"); //where the bot is searching for
     
-    const embed = new Discord.RichEmbed()
-    .setColor("#ff9900")
+    const embed = new Discord.MessageEmbed()
+    .setColor("#ff9900") // you can set it as you went
     .setImage(body.url) //to show the randome image of wallpaper
     .setFooter(`© ${customisation.ownername}`); //it's optionel from customisation.json ; you can leave it empty 
     message.channel.send({embed})

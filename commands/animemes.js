@@ -1,12 +1,12 @@
 //By NightcoreAT#3678
-const Discord = require('discord.js'); //npm i discord.js
+const Discord = require('discord.js'); //npm i discord.js 
 const randomPuppy = require('random-puppy'); //npm i random-puppy
 const customisation = require('../customisation.json'); //to import your personal footer
 
 exports.run = (client, message, args) => { //Let's start the command script
     randomPuppy('animemes') //Let's check what we're looking for
     .then(url => { //then the results is
-        const embed = new Discord.RichEmbed()
+        const embed = new Discord.MessageEmbed() //as or is ; from here , your Command well become as RichEmbed Message {DiscordJS 12 has change it from RichEmbed to MessageEmbed}
         .setImage(url) //The link we requested turns into an image
         .setColor('#ff9900') //optinal ; you can set it random
         .setFooter(`© ${customisation.ownername}`); //here your personal footer

@@ -21,7 +21,7 @@ exports.run = async (client, message, args, prefix) => {//From here our command 
 			const body = JSON.parse(text); //after done let's check  
 			if (!body.data.length) return message.reply('Could not find any results.'); //If your search is missing or wrong, it does not support most languages
 			const data = body.data[0].attributes; //Let's extract the data
-			const embed = new Discord.RichEmbed() //Let's see the search results
+			const embed = new Discord.MessageEmbed() //Let's see the search results
 				.setColor(0xF75239) //optional ; you can set it random  
 				.setAuthor('Kitsu.io', 'https://i.imgur.com/lVqooyd.png', 'https://kitsu.io/explore/manga')
 				.setURL(`https://kitsu.io/manga/${data.slug}`) //let's show your search results from data

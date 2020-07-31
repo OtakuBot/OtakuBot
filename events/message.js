@@ -36,7 +36,7 @@ module.exports = async message => {
       cmd.run(client, message, params, perms);
       console.log("Command: *" + cmd.help.name)
       console.log("Guild: " + message.guild.name)
-      if (message.author.id !== "242263403001937920"){
+      if (message.author.id !== "SetYourID"){ //Just make sure its your own ID
         if(cd.has(message.author.id)){
           message.delete();
           return message.reply("This command is for cd for 5 sec")

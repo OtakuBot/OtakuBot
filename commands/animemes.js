@@ -1,4 +1,4 @@
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550
 const Discord = require('discord.js'); //npm i discord.js 
 const randomPuppy = require('random-puppy'); //npm i random-puppy
 const customisation = require('../customisation.json'); //to import your personal footer
@@ -25,4 +25,4 @@ exports.conf = {
     description: 'Sends a random post from r/animemes', //your command description ; you can set it as you want
     usage: 'animemes' //how that command is working
   };
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550

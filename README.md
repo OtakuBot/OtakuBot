@@ -37,6 +37,8 @@ There are a total of 37 commands and i will update help commands as soon as poss
 | `smack`           | Smacks a user Owo                                    | smack <@user>                  |
 | `smug`            | Smugs Owo                                            | smug                           |
 | `spank`           | Spanks someone Owo                                   | spank <@user>                  |
+| `leet`            | leet your text Owo                                   | leet <word>                    |
+| `respect`         | y'know                                               | respect <@user>                |
 | `tickle`          | Tickles someone Owo                                  | tickle <@user>                 |
 | `truth`           | Sends a scroll truth                                 | truth                          |
 | `uptime`          | Shows how long the bot has been online for           | uptime                         |

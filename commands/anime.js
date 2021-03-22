@@ -1,4 +1,4 @@
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550
 const request = require('node-superfetch'); //npm i node-superfetch 
 const Discord = require('discord.js'); //npm i discord.js
 //no footer so we are not required to use customisation
@@ -48,4 +48,4 @@ exports.conf = {
     description: "Provides info about an anime ; Please note that the search does not support multiple languages", 
     usage: "anime [anime name]" //how did that command is working
   };
-//By NightcoreAT3678
+//By NightcoreATDZO#3550

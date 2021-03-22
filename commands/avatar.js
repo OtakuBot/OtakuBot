@@ -1,3 +1,4 @@
+//By NightcoreATDZO#3550
 const Discord =  require('discord.js');
 const customisation = require('../customisation.json');
 exports.run = (client, message, args) => {
@@ -31,3 +32,4 @@ exports.help = {
   description: 'Fetches a user\'s avatar.',
   usage: 'avatar <user>'
 };
+//By NightcoreATDZO#3550

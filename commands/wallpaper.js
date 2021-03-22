@@ -10,7 +10,7 @@ exports.run = async (client, message, args, tools) => {
     const embed = new Discord.MessageEmbed()
     .setColor("#ff9900")
     .setImage(body.url) 
-    .setFooter(`© OtakuGirl by ${customisation.ownername}`);
+    .setFooter(`© ${customisation.ownername}`);
     message.channel.send({embed})
 };
 
@@ -26,3 +26,4 @@ exports.conf = {
     description: 'Anime wallpapers OwO',
     usage: 'wallpaper'
   };
+//By NightcoreATDZO#3550

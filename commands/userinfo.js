@@ -12,15 +12,15 @@ exports.run = async (client, msg, args) => {
   let muser = msg.guild.member(msg.mentions.users.first());
     if (!muser) muser = msg.member;
     if(!user) user = msg.author;
-  const embed = new Discord.RichEmbed();
+  const embed = new Discord.MessageEmbed();
   embed.addField("Username", `${user.username}#${user.discriminator}`, true) //that field well show your information full on Discord Or Server
           .addField("ID", `${user.id}`, true) //your ID and your name OR your friends ID and his name
           .setColor(3447003)
           .setThumbnail(`${user.avatarURL}`) // your personnel avatar or your friends personnel avatar
           .setTimestamp()
           .setURL(`${user.avatarURL}`) 
-          .addField('Currently', `${muser.presence.status.toUpperCase()}`, true) //check if your status is Online;Idle;DND;Offline
-          .addField('Game', `${muser.presence.game === null ? "No Game" : muser.presence.game.name}`, true) //check your game qctivity or your custom status
+          .addField('Currently', `soon..`, true) //check if your status is Online;Idle;DND;Offline || not working currently
+          .addField('Game', `soon..`, true) //check your game qctivity or your custom status || not working currently
           .addField('Joined Discord', `${moment(user.createdAt).toString().substr(0, 15)}\n(${moment(user.createdAt).fromNow()})`, true)
           .addField('Joined Server', `${moment(muser.joinedAt).toString().substr(0, 15)}\n(${moment(muser.joinedAt).fromNow()})`, true)
           .addField('Roles', `${muser.roles.array()}`, true) //All the roles that you own, but they do not apply to all servers in it, but to the server in which you use this command 

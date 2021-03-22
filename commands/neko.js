@@ -1,17 +1,18 @@
-const Discord = require('discord.js'); //npm i discord.js
-const superagent = require('superagent'); //npm i superagent
-const customisation = require('../customisation.json'); 
+const Discord = require('discord.js');
+const superagent = require('superagent');
+const customisation = require('../customisation.json');
 
-exports.run = async (client, message, args, tools) => { //lets started your commands script
+exports.run = async (client, message, args, tools) => {
+	if (!message.channel.nsfw) return message.channel.send(" :x: Woops, **you can not use this outside a room** **`NSFW`** !")
     const { body } = await superagent
-    .get("https://nekos.life/api/neko"); //lets see wut we went
+    .get("https://nekos.life/api/neko");
     link = body.neko;
     
-    const embed = new Discord.MessageEmbed() //onec Discordjs is updated to 12.2.0 , richembed is removed ! they replaced now as MessageEmbed
-    .setColor("#3bb9ff") //you can set it as you went
-    .setTitle("Your Neko is here !")
-    .setImage(body.neko) //here Neko is showing image
-    .setFooter(`© ${customisation.ownername}`); //your personnel Footer
+    const embed = new Discord.MessageEmbed()
+    .setColor("#ff9900")
+    .setTitle("Neko-Chan Neko-Chan UvU ")
+    .setImage(body.neko) 
+    .setFooter(`© OtakuGirl by ${customisation.ownername}`);
     message.channel.send({embed})
 };
 
@@ -22,9 +23,8 @@ exports.conf = {
     permLevel: 0
   };
   
-  exports.help = { //lets load commands 
-    name: 'neko', //commands name
-    description: 'Sends a random Neko ', //commands discription
-    usage: 'neko' //how they work
+  exports.help = {
+    name: 'neko',
+    description: 'Random Neko OwO',
+    usage: 'neko'
   };
-//By NightcoreAT#3678

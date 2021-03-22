@@ -1,31 +1,31 @@
-//By NightcoreAT#3678
-const Discord = require('discord.js'); //npm i discord.js | if you need download using Git Bash => discord.js version 12.2.0
-const superagent = require('superagent'); //npm i superagent
-const customisation = require('../customisation.json'); //to export your footer and put it as your own footer down
+const Discord = require('discord.js');
+const superagent = require('superagent');
+const customisation = require('../customisation.json');
 
 exports.run = async (client, message, args, tools) => {
-    if (!message.mentions.users.first()) return message.reply("You need to mention someone to kiss them");
+	if (!message.channel.nsfw) return message.channel.send(" :x: Woops, **you can not use this outside a room** **`NSFW`** !")
+    if (!message.mentions.users.first()) return message.reply("O3o you must mention user that you want to kiss him/her");
+	if (message.mentions.users.first().id === message.author.id) return message.channel.send('wai , why you want to kiss yourself');
     const { body } = await superagent
     .get("https://nekos.life/api/kiss");
     
-    const embed = new Discord.MessageEmbed() //RichEmbed is changed to MessageEmbed because the newest update is remove `RichEmbed` Method
-    .setColor("#ff9900") // you can set it random color
-    .setTitle(`OwO, ${message.author.username} kissed ${message.mentions.users.first().username}`) 
-    .setImage(body.url) // from .get to insert image as body
-    .setFooter(`© ${customisation.ownername}`);
-    message.channel.send({embed}) // your resulte well showing here
+    const embed = new Discord.MessageEmbed()
+    .setColor("#ff9900")
+    .setTitle(`OwO, ${message.author.username} has kissed ${message.mentions.users.first().username}`)
+    .setImage(body.url) 
+    .setFooter(`© OtakuGirl by ${customisation.ownername}`);
+    message.channel.send({embed})
 };
 
-exports.conf = { //config commands
+exports.conf = {
     enabled: true,
     guildOnly: false,
     aliases: [],
     permLevel: 0
   };
   
-  exports.help = { //config export help to make bots is know where or what the commands names
+  exports.help = {
     name: 'kiss',
-    description: 'Kisses someone OwO',
+    description: 'kiss anyone',
     usage: 'kiss'
   };
-//By NightcoreAT#3678

@@ -1,14 +1,15 @@
-const Discord = require('discord.js'); //npm i discord.js
-const randomPuppy = require('random-puppy'); //npm i random-puppy
+const Discord = require('discord.js');
+const randomPuppy = require('random-puppy');
 const customisation = require('../customisation.json');
 
-exports.run = (client, message, args) => { //lets started your commands script
-    randomPuppy('awwnime') //lets see wut we went
+exports.run = (client, message, args) => {
+	if (!message.channel.nsfw) return message.channel.send(" :x: Woops, **you can not use this outside a room** **`NSFW`** !")
+    randomPuppy('awwnime')
     .then(url => {
-        const embed = new Discord.MessageEmbed() //onec Discordjs is updated to 12.2.0 , richembed is removed ! they replaced now as MessageEmbed
-        .setImage(url) //here moe is showing
-        .setColor('#ff9900') //you set this as yo uwent
-        .setFooter(`© ${customisation.ownername}`);//your personnel Footer
+        const embed = new Discord.MessageEmbed()
+        .setImage(url)
+        .setColor('#ff9900')
+        .setFooter(`© OtakuGirl by ${customisation.ownername}`);
         return message.channel.send({ embed });
    })
    }
@@ -20,8 +21,7 @@ exports.conf = {
     };
      
 exports.help = {
-  name: 'moe', //commands name
-  description: 'Sends a random awwnime image', //commands description
-  usage: 'moe' //how they working
+  name: 'moe',
+  description: 'random awwnime',
+  usage: 'moe'
 };
-//By NightcoreAT#3678

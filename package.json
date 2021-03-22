@@ -1,12 +1,12 @@
 {
-  "name": "OtakuBot Open Source By NightcoreAT",
-  "version": "2.3.0",
+  "name": "OtakuBot Open Source By NightcoreATDZO",
+  "version": "3.2.0",
   "description": "Open Source version of OtakuBot",
   "main": "index.js",
   "scripts": {
     "test": "ohelp"
   },
-  "author": "NightcoreAT#3678",
+  "author": "NightcoreATDZO#3550",
   "dependencies": {
     "administrator": "0.0.1",
     "better-sqlite3": "5.4.0",

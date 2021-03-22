@@ -7,14 +7,14 @@ exports.run = (client, message, args) => {
         .setColor(0xFFFF00)
         .setTitle(`${message.mentions.users.first().username}: avatar`)
         .setImage(`${avatar}`)
-        .setFooter(`© OtakuGirl by ${customisation.ownername}`);
+        .setFooter(`© ${customisation.ownername}`);
         message.channel.send({embed});
     } else {
       const embed = new Discord.MessageEmbed()
       .setColor(0xFFFF00)
       .setTitle(`${message.author.username}: avatar`)
       .setImage(`${avatar + "?size=2048"}`)
-      .setFooter(`© OtakuGirl by ${customisation.ownername}`);
+      .setFooter(`© ${customisation.ownername}`);
       message.channel.send({embed});
     }
 }

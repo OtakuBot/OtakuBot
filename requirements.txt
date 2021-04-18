@@ -1,4 +1,4 @@
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550
 
 Hello, In this file, I will show you all the requirements for the bot to work well
 =====
@@ -12,7 +12,8 @@ Create a new folder with the name node_modules
 after it'd done,
 After completing this, download all modules below from npm or git , put it on node_modules
 ---
-discord.js latest ver (optionel 12.2.0 that which i working on)
+discord.js latest ver (
+alexflipnote.js latest ver 
 chalk latest ver
 ms latest ver
 clone latest ver
@@ -43,7 +44,7 @@ lodash.unset latest ver
 log-ok
 pify latest ver
 request latest ver
-require-main-filename latest ver\
+require-main-filename latest ver
 prism-media latest ver
 path-exists latest ver
 path-is-absolute latest ver
@@ -58,8 +59,8 @@ to-file latest ver
 mongodb + mongoos (Not required to release the current bot)
 discord-commando (Not required to release the current bot)
 utf8 (Not required to release the current bot)
-quick.db latest ver
-quick-db latest ver
+quick.db latest ver (Not required to release the current bot)
+quick-db latest ver (Not required to release the current bot)
 random-puppy latest ver
 read-pkg latest ver
 punycode latest ver
@@ -107,4 +108,4 @@ These are all requirements, if i forget something, don't forget to let me know v
 ----------------------------------
 The other explanation will be included in the commands
 ----------------------------------
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550

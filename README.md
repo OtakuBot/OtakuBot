@@ -2,7 +2,7 @@
 This bot is designed for entertainment only and of course is specific to the Discord app
 
 # commands
-There are a total of 37 commands and i will update help commands as soon as possible
+There are a total of 41 commands and i will update help commands as soon as possible
 
 |  List Of Command  |                     Description                      |              Usage             |
 | ----------------- | ---------------------------------------------------- | ------------------------------ |

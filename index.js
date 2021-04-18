@@ -26,14 +26,14 @@ fs.readdir('./commands/', (err, files) => {
   });
 });
 
-//discordjs when they are upgarde to ver 12.2.0 , some feauture is cannot working now !
+//discordjs when they are upgarde to ver 12.2.0 , some feature is cannot working now !
 client.on('ready', () => {
   setInterval(() => {
     client.user.setPresence({ activity: { name: `Nothing`, type: 1, url: "https://www.twitch.tv/" }})
   }, 60000);
 });
 
-//discordjs when they are upgarde to ver 12.2.0 , some feauture is cannot working now !
+//discordjs when they are upgarde to ver 12.2.0 , some feature is cannot working now !
 client.on("guildCreate", guild => {
   let channelID;
   let channels = guild.channels;
@@ -47,7 +47,7 @@ client.on("guildCreate", guild => {
   }
 //client.channel.get is changed to client.channel.cache.get , that because an old one is stopped working at last ver 11.5.0 of discordjs liberary
   let channel = client.channels.cache.get(guild.systemChannelID || channelID);
-  channel.send(`Thanks for inviting me into this server! Please do /info and /help for the informations you WILL need in order for the bot to work properly. Do /suggest or /bug if there's any suggestions or bug you found. THANKS`);
+  channel.send(`Thanks for inviting me into this server! Please do /info and /help for the informations you WILL need in order for the bot to work properly. Do -suggest or -bug if there's any suggestions or bug you found. THANKS`);
   channel.send("Join me in the Developer's server [Optionel]");
 
   let blacklist = JSON.parse(fs.readFileSync("./blacklist.json", "utf8"));

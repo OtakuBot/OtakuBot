@@ -9,6 +9,7 @@ There are a total of 37 commands and i will update help commands as soon as poss
 | `anime`           | Provides info about an anime                         | anime [anime name]             |
 | `animemes`        | Sends a random post from r/animemes                  | animemes                       |
 | `avatar`          | Fetches a user\'s avatar                             | avatar <@user>                 |
+| `amiajoke`        |                                                      | amiajoke <@user>               |
 | `baka`            | Baka Uwu                                             | baka <@user>                   |
 | `cat`             | Send a Random Cat                                    | cat                            |
 | `feed`            | Feeds someone OwO                                    | feed <@user>                   |
@@ -53,7 +54,7 @@ The bot was developed by `NightcoreATDZO#3550` , In programming language Json ,
 Using Visual Studio Code and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
-> Bot is updated her package to DiscordJS 12.2.0 | Bot Ver currently 2.3.0
+> Bot is updated her package to DiscordJS 12.2.0 | Bot Ver currently 3.3.0
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -
@@ -64,5 +65,5 @@ Help command will be released as soon as possible
 - - - - - - - -
 > join us at 
 
-[![Discord](https://discordapp.com/api/guilds/352896116812939264/widget.png)](https://discord.gg/chnUSyw)
+[![Discord](https://discordapp.com/api/guilds/352896116812939264/widget.png)](https://discord.gg/vHe5QbkYA5)
 [![Build Status](https://travis-ci.com/serin3/OtakuBot.svg?branch=master)](https://travis-ci.com/serin3/OtakuBot)

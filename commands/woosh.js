@@ -23,4 +23,4 @@ exports.conf = {
     description: 'r/woosh',
     usage: 'woosh (w or w/o @mention)'
   };
-//By NightcoreAT#3678
+//By NightcoreATDZO#3550

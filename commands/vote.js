@@ -26,7 +26,7 @@ exports.run = async (bot, message, args) => {
     var YES_Count = reactions.get(agree).count;
   }
 
-  var sumsum = new Discord.RichEmbed()
+  var nightcoreat = new Discord.MessageEmbed()
   
             .addField("Voting Finished:", "----------------------------------------\n" +
                                           "Question: " + message.content.split(" ").splice(1).join(" ") + "\n" +
@@ -36,7 +36,7 @@ exports.run = async (bot, message, args) => {
 
             .setColor("0x#FF0000")
             .setFooter(`© ${customisation.ownername}`);
-  await message.channel.send({embed: sumsum});
+  await message.channel.send({embed: nightcoreat});
 
 }
 

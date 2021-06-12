@@ -4,7 +4,7 @@
   "description": "Open Source version of OtakuBot",
   "main": "index.js",
   "scripts": {
-    "test": "ohelp"
+    "test": "node index.js"
   },
   "author": "NightcoreATDZO#3550",
   "dependencies": {

@@ -1,8 +1,5 @@
 {
 	"ownerid": "YOUR-ID",
-	"modrolename": "Moderator",
-	"adminrolename": "Admin",
-	"managerrolename": "Manager",
 	"apitoken": "API-TOKEN", 
 	"overlordrolename": "Owner",
 	"prefix": "!",

@@ -63,7 +63,4 @@ Follow requirements file
 - - - - - - - -
 Help command will be released as soon as possible
 - - - - - - - -
-> join us at 
-
-[![Discord](https://discordapp.com/api/guilds/352896116812939264/widget.png)](https://discord.gg/vHe5QbkYA5)
 [![Build Status](https://travis-ci.com/serin3/OtakuBot.svg?branch=master)](https://travis-ci.com/serin3/OtakuBot)

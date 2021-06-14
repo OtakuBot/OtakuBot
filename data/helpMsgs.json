@@ -1,37 +1,37 @@
 {
     "helpMsg2": [
-      "**/avatar** - Displays a user's avatar.",
-      "**/ping** - Pings the bot.",
-      "**/serverinfo** - Displays info about the server.",
-      "**/uptime** - Shows how long the bot has been running for.", 
-      "**/userinfo** - Displays info about your account.",
-      "**/vote** - Vote for something."  
+      "**avatar** - Displays a user's avatar.",
+      "**ping** - Pings the bot.",
+      "**serverinfo** - Displays info about the server.",
+      "**uptime** - Shows how long the bot has been running for.", 
+      "**userinfo** - Displays info about your account.",
+      "**vote** - Vote for something."  
     ],
     "helpMsg3": [
 
-      "**/roll** - Roll a random number",
-      "**/rps** - Play Rock, Paper, Scissors against the bot",
-      "**/wallpaper** - Sends a random Anime Wallpaper",
-      "**/kitsune** - Fox Girls OwO",
-      "**/neko** - Sends a Neko image",
-      "**/cat** - Sends a random Cat",
-      "**/nep** - Sends a random Neptunia gif or image OwO"
-      "**/loli** - Sends a random loli neko"
+      "**roll** - Roll a random number",
+      "**rps** - Play Rock, Paper, Scissors against the bot",
+      "**wallpaper** - Sends a random Anime Wallpaper",
+      "**kitsune** - Fox Girls OwO",
+      "**neko** - Sends a Neko image",
+      "**cat** - Sends a random Cat",
+      "**nep** - Sends a random Neptunia gif or image OwO",
+      "**loli** - Sends a random loli neko"
     ],
     "helpMsg4": [
-      "**/hug** - Hugs someone OwO",
-      "**/pat** - Pats someone OwO",
-      "**/kiss** - Kisses someone OwO",
-      "**/tickle** - Tickles someone OwO",
-      "**/smug** - Smugs xD",
-      "**/spank** - Spanks someone",
-      "**/cuddle** - Cuddles someone OwO",
-      "**/feed** - Feeds someone OwO",
-      "**/baka** - B-BAKAA!!! uwu",
-      "**/slap** - Slaps someone in their Face.",
-      "**/smack** - Smacks a user",
-      "**/punch** - Punches a user",
-      "**/hammer** - Gives you a hammer to throw at a pleb",
-      "**/fight** - Fight someone."
+      "**hug** - Hugs someone OwO",
+      "**pat** - Pats someone OwO",
+      "**kiss** - Kisses someone OwO",
+      "**tickle** - Tickles someone OwO",
+      "**smug** - Smugs xD",
+      "**spank** - Spanks someone",
+      "**cuddle** - Cuddles someone OwO",
+      "**feed** - Feeds someone OwO",
+      "**baka** - B-BAKAA!!! uwu",
+      "**slap** - Slaps someone in their Face.",
+      "**smack** - Smacks a user",
+      "**punch** - Punches a user",
+      "**hammer** - Gives you a hammer to throw at a pleb",
+      "**fight** - Fight someone."
 	]
 }

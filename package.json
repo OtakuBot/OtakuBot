@@ -1,6 +1,6 @@
 {
-  "name": "OtakuBot Open Source By NightcoreATDZO",
-  "version": "3.3.0",
+  "name": "OtakuBot",
+  "version": "3.3.2",
   "description": "Open Source version of OtakuBot",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "os-utils": "^0.0.14",
     "alexflipnote": "^2.5.0",
     "random-puppy": "^1.1.0",
-    "superagent": "^5.0.5",
+    "superagent": "^6.1.0",
     "urban": "^0.3.2",
     "with": "^6.0.0"
   }

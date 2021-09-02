@@ -54,7 +54,9 @@ The bot was developed by `NightcoreATDZO#3550` , In programming language Json ,
 Using Visual Studio Code and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
-> Bot is updated her package to DiscordJS 12.5.3 | Bot Ver currently 3.3.0
+==== NodeJS V14x required or higher ====
+- - - - - - - -
+> Bot is updated her package to DiscordJS 13.1.0 | Bot Ver currently 3.3.2
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -

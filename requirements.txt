@@ -4,7 +4,7 @@ Hello, In this file, I will show you all the requirements for the bot to work we
 =====
 first thing
 ---
-Make sure you own and download the latest version of nodejs (optionel 13.7.2 That the bot works well on)
+Make sure you own and download the latest version of nodejs (not supported 13x)
 ---
 then
 ---
@@ -12,7 +12,7 @@ Create a new folder with the name node_modules
 after it'd done,
 After completing this, download all modules below from npm or git , put it on node_modules
 ---
-discord.js latest ver (
+discord.js latest ver 
 alexflipnote.js latest ver 
 chalk latest ver
 ms latest ver
@@ -104,7 +104,7 @@ get-stream latest ver
 fs.realpath latest ver
 hosted-git-info
 ----------------------------------
-These are all requirements, if i forget something, don't forget to let me know via Discord
+These are all requirements, if i forget something, dm me on Discord
 ----------------------------------
 The other explanation will be included in the commands
 ----------------------------------

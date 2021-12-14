@@ -59,7 +59,7 @@ any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
 ==== NodeJS x16 npm 7.0.0 required  ====
 - - - - - - - -
-> Bot is updated her package to DiscordJS 13.1.0 | Bot Ver currently 3.3.2
+> Bot is updated her package to DiscordJS 13.3.1 | Bot Ver currently 3.3.2
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -

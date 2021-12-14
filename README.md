@@ -1,3 +1,6 @@
+# Important ⚠️
+we're about to end our support for windows 7 as soon as possible cause nodejs x16 unvailable on windows 7, the next update on otakubot folder, will change nodejs from x13>x16 (supported win 8.1 or higher -- x32Bit | x64Bit)
+
 # OtakuBot
 This bot is designed for entertainment only and of course is specific to the Discord app
 
@@ -54,7 +57,7 @@ The bot was developed by `NightcoreATDZO#3550` , In programming language Json ,
 Using Visual Studio Code and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
-==== NodeJS V14x required or higher ====
+==== NodeJS x16 npm 7.0.0 required  ====
 - - - - - - - -
 > Bot is updated her package to DiscordJS 13.1.0 | Bot Ver currently 3.3.2
 - - - - - - - - 
@@ -62,7 +65,5 @@ If you have ideas or something, you can share it with us by opening a pull reque
 - - - - - - - -
 Want to run the bot on your device?
 Follow requirements file
-- - - - - - - -
-Help command will be released as soon as possible
 - - - - - - - -
 [![Build Status](https://travis-ci.com/serin3/OtakuBot.svg?branch=master)](https://travis-ci.com/serin3/OtakuBot)

@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const settings = require('./settings.json');
-const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
 require('./util/eventLoader')(client);
@@ -33,32 +32,6 @@ client.on('ready', () => {
   }, 60000);
 });
 
-//discordjs when they are upgarde to ver 12.2.0 , some feature is cannot working now !
-client.on("guildCreate", guild => {
-  let channelID;
-  let channels = guild.channels;
-  channelLoop:
-  for (let c of channels) {
-      let channelType = c[1].type;
-      if (channelType === "text") {
-          channelID = c[0];
-          break channelLoop;
-      }
-  }
-//client.channel.get is changed to client.channel.cache.get , that because an old one is stopped working at last ver 11.5.0 of discordjs liberary
-  let channel = client.channels.cache.get(guild.systemChannelID || channelID);
-  channel.send(`Thanks for inviting me into this server! Please do /info and /help for the informations you WILL need in order for the bot to work properly. Do -suggest or -bug if there's any suggestions or bug you found. THANKS`);
-  channel.send("Join me in the Developer's server [Optionel]");
-
-  let blacklist = JSON.parse(fs.readFileSync("./blacklist.json", "utf8"));
-    client.guilds.forEach((guild) => {
-      if (!blacklist[guild.ownerID]) return
-      if(blacklist[guild.ownerID].state === true) {
-        channel.send("But UNFORTUNATELY, the owner of this server has been blacklisted before so I'm LEAVING! Bye!")
-        guild.leave(guild.id)
-      }
-    })
-});
 //command reload that the bot needed to work and respond of
 client.reload = command => {
   return new Promise((resolve, reject) => {

@@ -14,7 +14,6 @@ After completing this, download all modules below from npm or git , put it on no
 ---
 discord.js ver 12.2.0
 alexflipnote.js latest ver 
-chalk latest ver
 ms latest ver
 clone latest ver
 casless latest ver

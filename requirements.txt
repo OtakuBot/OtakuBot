@@ -12,7 +12,7 @@ Create a new folder with the name node_modules
 after it'd done,
 After completing this, download all modules below from npm or git , put it on node_modules
 ---
-discord.js latest ver 
+discord.js ver 12.2.0
 alexflipnote.js latest ver 
 chalk latest ver
 ms latest ver

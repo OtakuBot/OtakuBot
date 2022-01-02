@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const settings = require('./settings.json');
 const fs = require('fs');
 const moment = require('moment');
+const { token } =require('./token.json')
 require('./util/eventLoader')(client);
 
 //loading messages
@@ -68,5 +69,5 @@ client.elevation = message => {
   return permlvl;
 };
 
-//dont put your token here 'places for called from file that called settings.json and the bot well auto get token
-client.login(settings.token);
+//Don't put anything here.. check token.json
+client.login(token);

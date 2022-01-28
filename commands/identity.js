@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const types = ['Psychopath', 'Depressed', 'Cheerful', 'Bright', 'Dark', 'God', 'Deceiver', 'Funny', 'Fishy', 'Cool', 'Insecure', 'Lonely', 'Optimistic', 'Brave', 'Brilliant', 'Dreamer', 'Nurturer', 'Peaceful', 'Hot', 'weeb', 'otaku', 'Perfect', 'Overthinker', 'Idealist'];
 const social = ['Loser', 'The nice guy', 'The cute girl', 'Dank memer', 'Nerd', 'Kinky'];
 const relationship = ['Single', 'Married', 'Taken', 'Forever alone'];
-const hobbies = ['Art', 'Drawing', 'Painting', 'Singing', 'Writing', 'Anime', 'Memes', 'Minecraft', 'Subscribing to PewDiePie from alt accounts', 'Deleting T-Series', 'League Of Legends', 'Pubg'];
-const genres = ['Nightcore', 'Heavy Metal', 'Alternative', 'Electronic', 'Classical', 'Dubstep', 'Jazz', 'Pop', 'Rap', 'Country'];
+const hobbies = ['Art', 'Drawing', 'Painting', 'Singing', 'Writing', 'Anime', 'Memes', 'Minecraft', 'League Of Legends', 'Pubg'];
+const genres = ['Nightcore', 'Heavy Metal', 'Alternative', 'Electronic', 'Dubstep', 'Pop', 'Rap', 'Country'];
 
 exports.run = async (client, message) => { 
   try {

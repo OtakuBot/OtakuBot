@@ -29,7 +29,8 @@ fs.readdir('./commands/', (err, files) => {
 //discordjs when they are upgarde to ver 12.2.0 , some feature is cannot working now !
 client.on('ready', () => {
   setInterval(() => {
-    client.user.setPresence({ activity: { name: `Nothing`, type: 1, url: "https://www.twitch.tv/" }})
+client.user.setStatus('idle')
+client.user.setActivity(`Nothing`, {type: 'PLAYING'}) // {type: 'PLAYING - WATCHING - STREAMING - LISTENING'}
   }, 60000);
 });
 
@@ -71,3 +72,4 @@ client.elevation = message => {
 
 //Don't put anything here.. check token.json
 client.login(token);
+//By NightcoreATDZO#3550

@@ -56,7 +56,7 @@ any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
 ==== NodeJS x14 ====
 - - - - - - - -
-> DiscordJS v12.2.0 | Bot v3.5.2
+> DiscordJS v12.2.0 | Bot v3.6.0
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
 - - - - - - - -

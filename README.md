@@ -1,4 +1,9 @@
 # OtakuBot
+
+-------
+The folder will stop working soon.. and the version will be updated soon.. You can contact me via Discord for information on how to self-update The date could be April 28, 2022
+-------
+
 This bot is designed for entertainment only and of course is specific to the Discord app
 
 # commands
@@ -54,13 +59,10 @@ The bot was developed by `NightcoreATDZO#3550` , In programming language Json ,
 Using Visual Studio Code and NotePad++
 any suggest or bug , dm me , and feel free to pull request ^^
 - - - - - - - -
-==== NodeJS x14 ====
+==== NodeJS x16 ====
 - - - - - - - -
-> DiscordJS v12.2.0 | Bot v3.6.0
+> DiscordJS v12.2.0 (outdated soon..) | Bot v3.6.0 (v4.0 soon)
 - - - - - - - - 
 If you have ideas or something, you can share it with us by opening a pull request or writing to me via discord
-- - - - - - - -
-Want to run the bot on your device?
-Follow requirements file
 - - - - - - - -
 [![Build Status](https://travis-ci.com/serin3/OtakuBot.svg?branch=master)](https://travis-ci.com/serin3/OtakuBot)

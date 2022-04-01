@@ -12,7 +12,7 @@ This bot is designed for entertainment only and of course is specific to the Dis
 | ----------------- | -------------------------------------------- | ------------------------------------------------- |
 | `1.0`             | Main File [Launcher]                         | https://github.com/OtakuBot/ob.js-launcher        |
 | `1.0`             | Event Loader [Required For Command Hanlder]  | https://github.com/OtakuBot/ob.js-eventLoader     |
-| `1.0              | Multi Usable [Required to run the bot]       | https://github.com/OtakuBot/ob.js-multi-usable    |
+| `1.0`              | Multi Usable [Required to run the bot]       | https://github.com/OtakuBot/ob.js-multi-usable    |
 
 - - - - - - - -
 The bot was developed by `NightcoreATDZO#3550` , In programming language Json ,

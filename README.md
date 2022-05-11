@@ -1,7 +1,7 @@
 # OtakuBot
 
 -------
-The folder will stop working soon.. v11 | v12 (They will be outdated)
+Working !!
 -------
 
 This bot is designed for entertainment only and of course is specific to the Discord app

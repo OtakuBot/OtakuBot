@@ -11,7 +11,7 @@
     "discord.js": "^12.2.0",
     "integer": "4.0.0",
     "moment": "^2.29.4",
-    "node-gyp": "^4.0.0",
+    "node-gyp": "^9.4.0",
     "node-superfetch": "^0.1.9",
     "os-utils": "^0.0.14",
     "alexflipnote.js": "^2.6.3",
